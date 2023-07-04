@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-tpg-&w1a6f77fdo+jcx#wy_)zxxjk!o$o&*t+atq_ck58b_o7^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    ".ap-northeast-2.compute.amazonaws.com"
+]
 
 
 # Application definition
