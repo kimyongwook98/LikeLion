@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'awsApp.apps.AwsappConfig'
+    'kywApp.apps.KywappConfig'
 ]
 
 MIDDLEWARE = [
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'awsProject.urls'
+ROOT_URLCONF = 'kywProject.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'awsProject.wsgi.application'
+WSGI_APPLICATION = 'kywProject.wsgi.application'
 
 
 # Database
