@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AwsappConfig(AppConfig):
+class KywappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'awsApp'
+    name = 'kywApp'

@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-import awsApp.views
+import kywApp.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', awsApp.views.index, name = 'index'),
+    path('', kywApp.views.index, name = 'index'),
 ]
